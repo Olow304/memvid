@@ -179,7 +179,7 @@ class MemvidEncoder:
         }
 
         opencv_codec = opencv_codec_map.get(codec, codec)
-        fourcc = cv2.VideoWriter_fourcc(*opencv_codec)
+        fourcc = cv2.VideoWriter.fourcc(*opencv_codec)
 
         return cv2.VideoWriter(
             output_path,
