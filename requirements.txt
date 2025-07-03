@@ -19,3 +19,4 @@ ebooklib
 openai==1.82.0
 google-generativeai==0.8.5
 anthropic~=0.52.1
+together==1.5.11
