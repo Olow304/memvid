@@ -50,6 +50,7 @@ setup(
             "openai>=1.0.0",
             "google-generativeai>=0.8.0",
             "anthropic>=0.52.0",
+            "huggingface_hub>=0.32.0",
         ],
         "epub": [
             "beautifulsoup4>=4.0.0",
